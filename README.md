@@ -30,6 +30,7 @@ enum ALGORITHM
 }; 
 ```
 #Unit Testing
+
 * To ensure the program works as intended, all code is built with provided Makefiles and unit tests.
 #Benchmarking and Report
 * Benchmarks are conducted to assess the time complexity of both the standard malloc function and custom implementations. Clock times are recorded using the clock_t data type to mark the start and end times. 

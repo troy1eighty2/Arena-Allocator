@@ -3,6 +3,7 @@ This is a research project exploring the intricacies of malloc, a fundamental fu
 ## Methodology
 Report: https://docs.google.com/document/d/1qjEKr73p4x18M7808es3QQRPJS9jiznKvuJ5vo8Vuss/edit?usp=sharing
 * Initial pool of memory
+
 The initial pool of memory is the only time malloc is used.
 * Implementation of the memory allocator API
 ```

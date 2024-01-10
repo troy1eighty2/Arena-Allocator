@@ -31,7 +31,6 @@ enum ALGORITHM
 ```
 ## Unit Testing
 * To ensure the program works as intended, all code is built with provided Makefiles and unit tests.
-* 
 ##Benchmarking and Report
 * Benchmarks are conducted to assess the time complexity of both the standard malloc function and custom implementations. Clock times are recorded using the clock_t data type to mark the start and end times. 
 * In total, five timed tests are conducted. The initial test involvs initializing a block of memory and performing a malloc operation for each block. This process repeats twice for each malloc implementation: once with a small number of allocations and small memory blocks, and again with a large number of allocations and large memory blocks. Additionally, two free tests are carried out—one with large chunks and another with small chunks. Finally, the last test involvs allocating and freeing a single block of memory 1,000 times.
